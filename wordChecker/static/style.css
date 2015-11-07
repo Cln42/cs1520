@@ -1,0 +1,55 @@
+@font-face{
+	font-family: 'myFont';
+	src: url(/static/5th.ttf);	
+}
+
+header {
+  background-color: #5C697C;
+  margin: auto;
+  height: 150px;   
+}
+
+h1 {
+  font-family: 'myFont';
+  font-size: 60px;
+  padding: 35px;
+}
+
+a:link {
+text-decoration: none;
+color: #FFF7DB;
+}
+
+a:visited {
+text-decoration: none;
+color: #FFF7DB;
+
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: #86BAAA;
+}
+
+#enter, #result {
+  color: #31174D;
+}
+
+#word {
+  font-family: sans-serif;
+  font-size: 24pt;
+  text-align: center;
+  border: solid 1px #31174D;
+  box-shadow:2px 2px 3px 3px #31174D;
+  width: 300px;
+  height: 60px;
+  background-color: #FFF7DB;
+}
+
+#result {
+  font-size: 16pt;
+  padding: 10px;
+}
